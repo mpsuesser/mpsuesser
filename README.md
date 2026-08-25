@@ -1,4 +1,4 @@
-Repos with code that I use actively:
+## Public repos I consider to be active
 
 [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer): More than 30 Effect skills plus a write-time pattern matcher that catches places where Effect offers a cleaner solution. I want my codebases gilled up on Effect. It gives me confidence that the code is correct and keeps agents decisively in the Effect latent space, rather than treating it as an afterthought
 
@@ -16,9 +16,9 @@ Repos with code that I use actively:
 
 [yazi](https://github.com/mpsuesser/yazi): Fork of the original [yazi](https://github.com/sxyazi/yazi) because I use it so much and had some bespoke customizations I wanted to make
 
-[mpsuesser (meta!)](https://github.com/mpsuesser/mpsuesser): To get a profile header like this, one must create an eponymous repo and put things in the README
+[mpsuesser](https://github.com/mpsuesser/mpsuesser) (meta!): To get a profile header like this, one must create an eponymous repo and put things in the README
 
-Repos I no longer use for one reason or another:
+## Repos I no longer use for one reason or another
 
 [interview-me-phonecall](https://github.com/mpsuesser/interview-me-phonecall): I had an 8-hour drive the next day, wanted to talk out some ideas and be sure I could use the transcripts after
 
@@ -42,25 +42,33 @@ Repos I no longer use for one reason or another:
 
 [ReposCLI](https://github.com/mpsuesser/ReposCLI): This was important to me for a few hours but then I realized I do not have sufficient runway to allocate my time to such things
 
-Unity games:
+## Unity games
 
 For about three years my obsession was indie game development, and because I am hardcore but also because these are the kinds of games I grew up on I only ever worked on multiplayer client-server games.
 
-RUN Football: This was to [WaLK Football](https://www.youtube.com/watch?v=8vnnrjnj3q4) what DotA 2 was to DotA.
+### RUN Football
+
+RUN Football was to [WaLK Football](https://www.youtube.com/watch?v=8vnnrjnj3q4) what DotA 2 was to DotA.
 
 [RFB_Client-archive](https://github.com/mpsuesser/RFB_Client-archive)
+
 [RFB_Server-archive](https://github.com/mpsuesser/RFB_Server-archive)
 
-Spire Two: This was the WoW Challenge Mode experience crystallized into a game that would never ask you to level up a character or to procure the optimal set of gear to qualify for participation; all about the dungeon run.
+### Spire Two
+
+Spire Two was the WoW Challenge Mode experience crystallized into a game that would never ask you to level up a character or to procure the optimal set of gear to qualify for participation; all about the dungeon run.
 
 [SpireTwo-archive](https://github.com/mpsuesser/SpireTwo-archive)
+
 [SpireTwoServer-archive](https://github.com/mpsuesser/SpireTwoServer-archive)
 
-Line Tower Wars 2: This was to [Line Tower Wars](https://www.youtube.com/watch?v=n66dx6VyKC0) what DotA 2 was to DotA.
+### Line Tower Wars 2
+
+Line Tower Wars 2 was to [Line Tower Wars](https://www.youtube.com/watch?v=n66dx6VyKC0) what DotA 2 was to DotA.
 
 [LTW2-archive](https://github.com/mpsuesser/LTW2-archive)
 
-Real oldies:
+## Real oldies
 
 [USP-Ninjas-archive](https://github.com/mpsuesser/USP-Ninjas-archive): This was like my first big project, wrote this when I was 14, it's a plugin for Counter Strike 1.6. There was idk like 100 maybe 200 people who would regularly play this game [USP Ninjas](https://www.youtube.com/watch?v=19NfFuY6dHk) on a custom map that was made specifically for it. But it was just a map, and there were rules to the game, so sometimes people would break the rules and the only way to referee was to start yelling about it in all chat. And you had to manually facilitate like picking teams, restarting the rounds, keeping track of the real score, and so on. This plugin formalized and enforced all of that stuff.
 
