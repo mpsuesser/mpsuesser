@@ -1,6 +1,6 @@
 ## Public repos I consider to be active
 
-[Dojo](https://github.com/mpsuesser/Dojo): Specialized interfaces for getting information out of ones head and into something maximally legible to an agent as efficiently as possible
+[Dojo](https://github.com/mpsuesser/Dojo): A collection of specialized interfaces for getting information out of ones head and into something maximally legible to an agent as efficiently as possible
 
 [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer): Dozens of Effect skills, an agent-write-time pattern matcher/catcher with dozens of Effect-first AST-detected patterns with detailed remediation guidance, small handful of guidance docs injected near the top of the context window to set the Effect frame of mind, and programmatic guarantees that this stuff carries across the compaction threshold. Greatly increases my confidence that the code is correct and keeps agents decisively in the Effect latent space rather than treating it as an afterthought
 
