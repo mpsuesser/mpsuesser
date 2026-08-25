@@ -1,20 +1,10 @@
-I am interested in:
-
-
-Here is the tech stack I have committed to using for all projects:
-  - Effect
-  - Foldkit
-  - Alchemy
-  - Cloudflare
-  - OpenCode
-
 Repos with code that I use actively:
-
-[effect-oxlint](https://github.com/mpsuesser/effect-oxlint): Wraps the oxlint plugin SDK with Effect so it's more ergonomic to write all your custom oxlint rules Effect-firstly. Kinda pointless but I do use it and some other people do too
 
 [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer): More than 30 Effect skills plus a write-time pattern matcher that catches places where Effect offers a cleaner solution. I want my codebases gilled up on Effect. It gives me confidence that the code is correct and keeps agents decisively in the Effect latent space, rather than treating it as an afterthought
 
 [opencode-imagen](https://github.com/mpsuesser/opencode-imagen): So that I can say "use imagen to make a sick backsplash for this page that fits the aesthetic based on what you see in @docs/vibes/" and it actually happens. Uses `gpt-image-2` and tokens are billed not separately but through the hooked-up monthly Codex subscription
+
+[effect-oxlint](https://github.com/mpsuesser/effect-oxlint): Wraps the oxlint plugin SDK with Effect so it's more ergonomic to write all your custom oxlint rules Effect-firstly. Kinda pointless but I do use it and some other people do too
 
 [oxlint-plugin-effect](https://github.com/mpsuesser/oxlint-plugin-effect): Custom lint rules for my projects, mostly the lint-rulified versions of the patterns enforced at write-time by [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer)
 
