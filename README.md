@@ -10,7 +10,7 @@
 
 [workspace](https://github.com/mpsuesser/workspace): Mostly dotconfigs, little bit of binding code for terminal apps
 
-[images](https://github.com/mpsuesser/images): A collection of over 350 AI-generated images I found to be provocative
+[images](https://github.com/mpsuesser/images): 350+ AI-generated images I found to be provocative
 
 [scrape-docs](https://github.com/mpsuesser/scrape-docs): OpenCode v2 has a feature where you can add a reference to a public GitHub repo and OpenCode then maintains a clone of it locally so I can `@reference` it in any chat and the agent is able to navigate it with bash/filesystem tools. So this repo is a scraper that scrapes the following documentation sites every 5 minutes and maintains a separate repo for each of them, effectively ensuring I am always able to e.g. `@foldkit-docs` in an OpenCode session and trust that I am pointing the agent to the most up-to-date version of that documentation as a locally-cached collection of markdown files: [Alchemy](https://github.com/mpsuesser/scraped-docs-alchemy), [Better Auth](https://github.com/mpsuesser/scraped-docs-better-auth), [Drizzle](https://github.com/mpsuesser/scraped-docs-drizzle), [Electron](https://github.com/mpsuesser/scraped-docs-electron), [Ent (Go)](https://github.com/mpsuesser/scraped-docs-ent-go), [Ent (TypeScript)](https://github.com/mpsuesser/scraped-docs-ent-ts), [Foldkit](https://github.com/mpsuesser/scraped-docs-foldkit), [LadybugDB](https://github.com/mpsuesser/scraped-docs-ladybugdb), [Pi](https://github.com/mpsuesser/scraped-docs-pi), [PlanetScale](https://github.com/mpsuesser/scraped-docs-planetscale), [ts-morph](https://github.com/mpsuesser/scraped-docs-ts-morph), [Turborepo](https://github.com/mpsuesser/scraped-docs-turborepo)
 
@@ -19,8 +19,6 @@
 [oxlint-plugin-effect](https://github.com/mpsuesser/oxlint-plugin-effect): Custom lint rules for my projects, mostly the lint-rulified versions of the patterns enforced at write-time by [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer)
 
 [yazi](https://github.com/mpsuesser/yazi): Fork of the original [yazi](https://github.com/sxyazi/yazi) because I use it so much and had some bespoke customizations I wanted to make
-
-[mpsuesser](https://github.com/mpsuesser/mpsuesser) (meta!): To get a profile header like this, one must create an eponymous repo and put things in the README
 
 ## Repos I no longer use for one reason or another
 
@@ -32,7 +30,7 @@
 
 [effect-autoagent](https://github.com/mpsuesser/effect-autoagent): Low effort few-prompt experiment in applying the then-novel effect harness to reproduce the then-novel original [autoagent](https://github.com/thirdlayerinc/autoagent) project but with Effect. In hindsight this was a terrible fit and serves merely as a cautionary tale
 
-[effect-claudecode](https://github.com/mpsuesser/effect-claudecode): I do not use Claude Code because perhaps to my detriment I am keenly lock-in-averse but when Fable was released I brought this up to date with Claude Code's plugin spec at the time but den da gubament took it away, so I never really used it. Maybe one day
+[effect-claudecode](https://github.com/mpsuesser/effect-claudecode): I do not use Claude Code but when Fable was released I brought this up to date with Claude Code's plugin spec at the time but then it got pulled, so I never really used it. Maybe one day
 
 [oxlint-plugin-alchemy](https://github.com/mpsuesser/oxlint-plugin-alchemy): Too much stuff, and moving too fast, and also not the greatest fit for a lint plugin to begin with
 
@@ -44,11 +42,11 @@
 
 [wxt-github-readme](https://github.com/mpsuesser/wxt-github-readme): Tiny web extension to add copy-to-clipboard buttons to the front-pages of GitHub repos for copying the README, so that if I just want to copy the README I don't need to spend an extra 5 seconds / 1 page load / 2 clicks. I forget why I stopped using it
 
-[ReposCLI](https://github.com/mpsuesser/ReposCLI): This was important to me for a few hours but then I realized I do not have sufficient runway to allocate my time to such things
+[ReposCLI](https://github.com/mpsuesser/ReposCLI): Now is not the time
 
 ## Unity games
 
-For about three years my obsession was indie game development, and because I am hardcore but also because these are the kinds of games I grew up on I only ever worked on multiplayer client-server games.
+For about three years my obsession was indie game development, and I worked exclusively on multiplayer client-server games.
 
 ### RUN Football
 
