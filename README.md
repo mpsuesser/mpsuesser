@@ -1,4 +1,4 @@
-## Actively maintained
+## Active
 
 [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer): Dozens of Effect skills, an agent-write-time pattern matcher/catcher with dozens of Effect-first AST-detected patterns with detailed remediation guidance, small handful of guidance docs injected near the top of the context window to set the Effect frame of mind, and programmatic guarantees that this stuff carries across the compaction threshold. Greatly increases my confidence that the code is correct and keeps agents decisively in the Effect latent space rather than treating it as an afterthought. Common advice from the Effect team and frequent users is that it is optimal to give your agent a direct reference to the Effect repo source code with minimal extra guidance or maybe just a single `effect` skill, but I think they are wrong about that.
 
@@ -12,13 +12,13 @@
 
 [scrape-docs](https://github.com/mpsuesser/scrape-docs): OpenCode v2 has a feature where you can add a reference to a public GitHub repo and OpenCode then maintains a clone of it locally so I can `@reference` it in any chat and the agent is able to navigate it with bash/filesystem tools. So this repo is a scraper that scrapes the following documentation sites every 5 minutes and maintains a separate repo for each of them, effectively ensuring I am always able to e.g. `@foldkit-docs` in an OpenCode session and trust that I am pointing the agent to the most up-to-date version of that documentation as a locally-cached collection of markdown files: [Alchemy](https://github.com/mpsuesser/scraped-docs-alchemy), [Better Auth](https://github.com/mpsuesser/scraped-docs-better-auth), [Drizzle](https://github.com/mpsuesser/scraped-docs-drizzle), [Electron](https://github.com/mpsuesser/scraped-docs-electron), [Ent (Go)](https://github.com/mpsuesser/scraped-docs-ent-go), [Ent (TypeScript)](https://github.com/mpsuesser/scraped-docs-ent-ts), [Foldkit](https://github.com/mpsuesser/scraped-docs-foldkit), [LadybugDB](https://github.com/mpsuesser/scraped-docs-ladybugdb), [Pi](https://github.com/mpsuesser/scraped-docs-pi), [PlanetScale](https://github.com/mpsuesser/scraped-docs-planetscale), [ts-morph](https://github.com/mpsuesser/scraped-docs-ts-morph), [Turborepo](https://github.com/mpsuesser/scraped-docs-turborepo)
 
-[effect-oxlint](https://github.com/mpsuesser/effect-oxlint): Wraps the oxlint plugin SDK with Effect so it's more ergonomic to write all your custom oxlint rules Effect-firstly. Kinda pointless but I do use it and some other people do too
+[effect-oxlint](https://github.com/mpsuesser/effect-oxlint): Wraps the oxlint plugin SDK with Effect so it's more ergonomic to write all your custom oxlint rules Effect-firstly
 
 [oxlint-plugin-effect](https://github.com/mpsuesser/oxlint-plugin-effect): Custom lint rules for my projects, mostly the lint-rulified versions of the patterns enforced at write-time by [opencode-effect-enforcer](https://github.com/mpsuesser/opencode-effect-enforcer)
 
 [yazi](https://github.com/mpsuesser/yazi): Fork of the original [yazi](https://github.com/sxyazi/yazi) because I use it so much and had some bespoke customizations I wanted to make
 
-[effect-prodigi](https://github.com/mpsuesser/effect-prodigi): Good binding for a Print-on-Demand SaaS app
+[effect-prodigi](https://github.com/mpsuesser/effect-prodigi): A binding for [Prodigi](https://www.prodigi.com/), a Print on Demand service
 
 ## Inactive
 
@@ -44,7 +44,7 @@
 
 ## Unity games
 
-For about three years my obsession was indie game development, and I worked exclusively on multiplayer client-server games.
+For about three years my obsession was indie game development, and I worked exclusively on competitive multiplayer games.
 
 ### RUN Football
 
@@ -56,7 +56,7 @@ RUN Football was to [WaLK Football](https://www.youtube.com/watch?v=8vnnrjnj3q4)
 
 ### Spire Two
 
-Spire Two was the WoW Challenge Mode experience crystallized into a game that would never ask you to level up a character or to procure the optimal set of gear to qualify for participation; all about the dungeon run.
+Spire Two was the competitive WoW Challenge Mode experience crystallized into a game that would never ask you to level up a character or to procure the optimal set of gear to qualify for participation. It's all about the dungeon run.
 
 [SpireTwo](https://github.com/mpsuesser/SpireTwo-archive)
 
@@ -70,6 +70,6 @@ Line Tower Wars 2 was to [Line Tower Wars](https://www.youtube.com/watch?v=n66dx
 
 ## Real oldies
 
-[USP-Ninjas](https://github.com/mpsuesser/USP-Ninjas-archive): This was like my first big project, wrote this when I was 14, it's a plugin for Counter Strike 1.6. There were maybe 200 people who would regularly play this game [USP Ninjas](https://www.youtube.com/watch?v=19NfFuY6dHk) on a custom map that was made specifically for it. But it was just a map, and there were rules to the game, so sometimes people would break the rules, and the only way to referee was to yell about it in all chat. And you had to manually facilitate picking teams, restarting the rounds, keeping track of the real score, and so on. This plugin formalized and enforced all of that stuff so that we could all just play the game.
+[USP-Ninjas](https://github.com/mpsuesser/USP-Ninjas-archive): This was like my first big project, at least it felt big to me at the time. I wrote this when I was 14, it's a plugin for Counter Strike 1.6. There were maybe 200 people who would regularly play this game [USP Ninjas](https://www.youtube.com/watch?v=19NfFuY6dHk) on a custom map that was made specifically for it. But it was just a map, and there were rules to the game, so sometimes people would break the rules, and the only way to referee was to yell about it in all chat. And you had to manually facilitate picking teams, restarting the rounds, keeping track of the real score, and so on. This plugin formalized and enforced all of that stuff so that we could all just play the game.
 
 [wc3fball-discord-lobby-bot](https://github.com/mpsuesser/wc3fball-discord-lobby-bot-archive): We had a small community of people who loved to play [WaLK Football](https://www.youtube.com/watch?v=8vnnrjnj3q4), which requires 8 people to play. It's a Warcraft 3 custom game so you have to launch the game, log in, join the lobby, and wait for 8 people. But there's all these subtle frictions that come with requiring people to sit waiting in the in-game lobby for 30+ minutes. So this was a Discord bot where people could !ready and !unready in Discord, and when the ready count got to 8 it would ping everybody so we could all fire up the game and join the lobby and go.
